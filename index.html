@@ -157,6 +157,28 @@
     <button id="presExit" title="Çıkış">✕</button>
   </div>
 
+  <!-- ═══ CHAT WIDGET ═══ -->
+  <button class="chat-bubble" id="chatBubble" title="Asistan ile Sohbet">💬</button>
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-header-avatar">🤖</div>
+        <div class="chat-header-text">
+          <h4>MID Asistan</h4>
+          <span><span class="online-dot"></span> Çevrimiçi</span>
+        </div>
+      </div>
+      <button class="chat-close-btn" id="chatClose" title="Kapat">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <!-- Messages rendered by JS -->
+    </div>
+    <div class="chat-input-bar">
+      <input type="text" id="chatInput" placeholder="Mesajınızı yazın..." autocomplete="off">
+      <button class="chat-send-btn" id="chatSend" title="Gönder">➤</button>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="js/app.js"></script>
   <script src="js/metrics.js"></script>
@@ -164,6 +186,7 @@
   <script src="js/sap.js"></script>
   <script src="js/other.js"></script>
   <script src="js/bulletins.js"></script>
+  <script src="js/chat.js"></script>
 </body>
 
 </html>
