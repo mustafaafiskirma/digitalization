@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap - TÜPRAŞ MID Portal</title>
+    <meta name="description" content="Tüpraş Mali İşler Dijitalleşme projeksiyon ve yol haritası.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand"><span>TÜPRAŞ</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">🏠 Ana Sayfa</a></li>
+            <li><a href="roadmap.html" class="active">🗺️ Roadmap</a></li>
+            <li><a href="egitim.html">📚 Eğitim</a></li>
+            <li><a href="index.html#bulletins">📰 Bültenler</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="btn-presentation" id="btnPresentation" title="Sunum Modu">📺 Sunum</button>
+            <div class="theme-toggle" id="themeToggle" title="Tema Değiştir"></div>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══ PAGE HEADER ═══ -->
+    <div class="page-header">
+        <h1>🗺️ Dijitalleşme Roadmap</h1>
+        <p>Proje yol haritası ve ilerleme durumu</p>
+    </div>
+
+    <!-- ═══ CONTENT ═══ -->
+    <section class="section">
+        <!-- View Toggle -->
+        <div style="text-align: center; margin-bottom: 24px;">
+            <div class="view-toggle" id="viewToggle">
+                <button class="toggle-btn active" data-view="timeline">📅 Timeline</button>
+                <button class="toggle-btn" data-view="kanban">📋 Kanban</button>
+                <button class="toggle-btn" data-view="list">📊 Liste</button>
+            </div>
+        </div>
+
+        <!-- Filter -->
+        <div style="text-align: center; margin-bottom: 24px;">
+            <div class="filter-bar" id="roadmapFilters" style="justify-content: center;"></div>
+        </div>
+
+        <!-- Summary -->
+        <div class="roadmap-summary" id="roadmapSummary"></div>
+
+        <!-- Views -->
+        <div id="roadmapView"></div>
+
+        <!-- Export -->
+        <div style="text-align: center; margin-top: 32px;">
+            <button class="btn btn-primary" onclick="alert('Timeline indiriliyor...')" style="display: inline-flex;">📥
+                Timeline İndir</button>
+            <button class="btn btn-secondary" onclick="alert('PPT olarak dışa aktarılıyor...')"
+                style="display: inline-flex; margin-left: 12px;">📊 PPT Export</button>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>🚀 Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="#">Talep Formu</a></li>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="egitim.html">Eğitim Köşesi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>📞 İletişim</h3>
+                <ul>
+                    <li><a href="#">Teams Kanalı</a></li>
+                    <li><a href="mailto:Mustafa.Fiskirma@tupras.com.tr">Mail Grubu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>🏆 Ekip</h3>
+                <ul>
+                    <li><a href="#">Ekip Üyeleri</a></li>
+                    <li><a href="#">Organizasyon</a></li>
+                    <li><a href="#">Başarı Hikayeleri</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Tüpraş Mali İşler Digitalization
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/roadmap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TÜPRAŞ Mali İşler Digitalization Portal</title>
+  <meta name="description" content="Tüpraş Mali İşler Dijitalleşme ekibinin proje takip ve sunum portalı.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand"><span>TÜPRAŞ</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">🏠 Ana Sayfa</a></li>
+      <li><a href="roadmap.html">🗺️ Roadmap</a></li>
+      <li><a href="egitim.html">📚 Eğitim</a></li>
+      <li><a href="#bulletins">📰 Bültenler</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-presentation" id="btnPresentation" title="Sunum Modu">📺 Sunum</button>
+      <div class="theme-toggle" id="themeToggle" title="Tema Değiştir"></div>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-floating-words" id="heroFloatingWords"></div>
+    <h1 class="hero-title">MID <span class="accent">Digitalization</span></h1>
+    <div class="hero-line"></div>
+  </section>
+
+  <!-- ═══ METRICS ═══ -->
+  <section class="section" id="metrics">
+    <div class="section-header">
+      <h2 class="section-title">📈 Canlı Performans</h2>
+      <p class="section-subtitle">Dijitalleşme metriklerimiz – gerçek zamanlı</p>
+    </div>
+    <div class="metrics-grid" id="metricsGrid">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- ═══ THREE PANELS ═══ -->
+  <section class="section" id="panels">
+    <div class="panels-container">
+      <!-- LEFT: Agents -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-icon">🤖</span>
+          <h2 class="panel-title">Agentlar</h2>
+        </div>
+        <div class="status-summary" id="agentStatus">
+          <!-- Rendered by JS -->
+        </div>
+        <div class="card-grid" id="agentGrid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+      <!-- CENTER: SAP -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-icon">📊</span>
+          <h2 class="panel-title">SAP Geliştirmeleri</h2>
+        </div>
+        <div id="sapList">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+      <!-- RIGHT: Other -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-icon">🔧</span>
+          <h2 class="panel-title">Diğer Geliştirmeler</h2>
+        </div>
+        <div class="filter-bar" id="otherFilters">
+          <!-- Rendered by JS -->
+        </div>
+        <div class="card-grid" id="otherGrid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BULLETINS ═══ -->
+  <section class="bulletins-section" id="bulletins">
+    <div class="bulletin-header">
+      <h2>📰 Bültenler & Haberler</h2>
+      <p>Dijitalleşme ekibinin aylık yayınları</p>
+    </div>
+    <div class="bulletin-filters" id="bulletinFilters">
+      <!-- Rendered by JS -->
+    </div>
+    <div class="fan-container" id="fanContainer">
+      <button class="fan-nav prev" id="fanPrev">◀</button>
+      <!-- Fan cards rendered by JS -->
+      <button class="fan-nav next" id="fanNext">▶</button>
+    </div>
+    <div class="active-bulletin-detail" id="activeBulletinDetail">
+      <!-- Updated by JS when a card is focused -->
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>🚀 Hızlı Linkler</h3>
+        <ul>
+          <li><a href="#">Talep Formu</a></li>
+          <li><a href="#">SSS</a></li>
+          <li><a href="roadmap.html">Roadmap</a></li>
+          <li><a href="egitim.html">Eğitim Köşesi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>📞 İletişim</h3>
+        <ul>
+          <li><a href="#">Teams Kanalı</a></li>
+          <li><a href="mailto:Mustafa.Fiskirma@tupras.com.tr">Mail Grubu</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>🏆 Ekip</h3>
+        <ul>
+          <li><a href="#">Ekip Üyeleri</a></li>
+          <li><a href="#">Organizasyon</a></li>
+          <li><a href="#">Başarı Hikayeleri</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Tüpraş Mali İşler Digitalization
+    </div>
+  </footer>
+
+  <!-- ═══ MODAL ═══ -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent">
+      <!-- Rendered dynamically by JS -->
+    </div>
+  </div>
+
+
+
+  <!-- ═══ PRESENTATION CONTROLS ═══ -->
+  <div class="presentation-controls" id="presControls">
+    <button id="presExit" title="Çıkış">✕</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/metrics.js"></script>
+  <script src="js/agents.js"></script>
+  <script src="js/sap.js"></script>
+  <script src="js/other.js"></script>
+  <script src="js/bulletins.js"></script>
+</body>
+
+</html>

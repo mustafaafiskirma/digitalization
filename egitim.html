@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğitim Köşesi - TÜPRAŞ MID Portal</title>
+    <meta name="description" content="Tüpraş Mali İşler Dijitalleşme eğitim kaynakları ve rehberler.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand"><span>TÜPRAŞ</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">🏠 Ana Sayfa</a></li>
+            <li><a href="roadmap.html">🗺️ Roadmap</a></li>
+            <li><a href="egitim.html" class="active">📚 Eğitim</a></li>
+            <li><a href="index.html#bulletins">📰 Bültenler</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="btn-presentation" id="btnPresentation" title="Sunum Modu">📺 Sunum</button>
+            <div class="theme-toggle" id="themeToggle" title="Tema Değiştir"></div>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══ PAGE HEADER ═══ -->
+    <div class="page-header">
+        <h1>📚 Eğitim Köşesi</h1>
+        <p>Öğren, uygula, ustalaş</p>
+    </div>
+
+    <!-- ═══ CONTENT ═══ -->
+    <section class="section">
+        <!-- Tabs -->
+        <div class="training-tabs" id="trainingTabs"></div>
+
+        <!-- Search -->
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="trainingSearch" placeholder="Eğitim ara...">
+        </div>
+
+        <!-- Content Grid -->
+        <div id="trainingContent"></div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>🚀 Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="#">Talep Formu</a></li>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>📞 İletişim</h3>
+                <ul>
+                    <li><a href="#">Teams Kanalı</a></li>
+                    <li><a href="mailto:Mustafa.Fiskirma@tupras.com.tr">Mail Grubu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>🏆 Ekip</h3>
+                <ul>
+                    <li><a href="#">Ekip Üyeleri</a></li>
+                    <li><a href="#">Organizasyon</a></li>
+                    <li><a href="#">Başarı Hikayeleri</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Tüpraş Mali İşler Digitalization
+        </div>
+    </footer>
+
+    <!-- ═══ MODAL ═══ -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/training.js"></script>
+</body>
+
+</html>
