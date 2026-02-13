@@ -18,6 +18,76 @@
       icon: '🤖',
       mostRead: true,
       summary: 'Teams Copilot ile toplantı özetleri ve aksiyon yönetimi.'
+    },
+    {
+      id: 6,
+      month: 'Eylül',
+      year: 2026,
+      title: 'Tüketici Yolculuğu',
+      topic: 'Pazarlama',
+      coverImage: 'assets/bulletins/tuketici-yolculugu.jpg',
+      pdfFile: 'assets/bulletins/tuketici-yolculugu.pdf',
+      icon: '🛣️',
+      mostRead: false,
+      summary: 'Müşteri deneyimini iyileştirmek için tüketici yolculuğu.'
+    },
+    {
+      id: 2,
+      month: 'Şubat',
+      year: 2026,
+      title: 'Yapay Zeka',
+      topic: 'AI',
+      coverImage: 'assets/bulletins/yapay-zeka.jpg',
+      pdfFile: 'assets/bulletins/yapay-zeka.pdf',
+      icon: '🧠',
+      mostRead: false,
+      summary: 'Yapay zeka teknolojilerindeki son gelişmeler.'
+    },
+    {
+      id: 3,
+      month: 'Aralık',
+      year: 2026,
+      title: 'Blockchain',
+      topic: 'Teknoloji',
+      coverImage: 'assets/bulletins/blockchain.jpg',
+      pdfFile: 'assets/bulletins/blockchain.pdf',
+      icon: '🔗',
+      mostRead: false,
+      summary: 'Blokzincir teknolojisi ve iş dünyasındaki uygulamaları.'
+    },
+    {
+      id: 4,
+      month: 'Kasım',
+      year: 2026,
+      title: 'MS To-Do',
+      topic: 'Verimlilik',
+      coverImage: 'assets/bulletins/ms-to-do.jpg',
+      pdfFile: 'assets/bulletins/ms-to-do.pdf',
+      icon: '✅',
+      mostRead: false,
+      summary: 'Microsoft To-Do ile işlerinizi daha iyi organize edin.'
+    },
+    {
+      id: 5,
+      month: 'Ekim',
+      year: 2026,
+      title: 'SAP Analizi',
+      topic: 'SAP',
+      coverImage: 'assets/bulletins/sap-analysis.jpg',
+      pdfFile: 'assets/bulletins/sap-analysis.pdf',
+      icon: '�',
+      mostRead: false,
+      summary: 'SAP sistemleri üzerine detaylı analizler.'
+    },
+    {
+      id: 7,
+      month: 'Ağustos',
+      year: 2026,
+      title: 'Kahvaltı',
+      topic: 'Yaşam',
+      coverImage: 'assets/bulletins/kahvaltı.jpg',
+      pdfFile: 'assets/bulletins/kahvaltı.pdf',
+      icon: '🥐',
     }
   ];
 
