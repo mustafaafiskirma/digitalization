@@ -88,6 +88,8 @@
       coverImage: 'assets/bulletins/kahvaltı.jpg',
       pdfFile: 'assets/bulletins/kahvaltı.pdf',
       icon: '🥐',
+      mostRead: false,
+      summary: 'Sağlıklı ve keyifli kahvaltı önerileri.'
     }
   ];
 
